@@ -12,4 +12,8 @@
     <PackageReference Include="System.Security.Permissions" Version="4.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../../sqltoolsservice/src/Microsoft.SqlTools.ManagedBatchParser/Microsoft.SqlTools.ManagedBatchParser.csproj" />
+  </ItemGroup>
+
 </Project>
